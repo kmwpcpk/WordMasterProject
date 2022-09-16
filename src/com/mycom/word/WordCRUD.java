@@ -113,6 +113,7 @@ public class WordCRUD implements ICRUD{
 			try {
 				BufferedReader br = new BufferedReader(new FileReader(fname));
 				String line;
+				int count = 0;
 				
 				while(true) {
 					line = br.readLine();
@@ -123,9 +124,12 @@ public class WordCRUD implements ICRUD{
 					String word = data[1];
 					String meaning = data[2];
 					list.add(new Word(0, level, word, meaning));
+					count++;
 					
 				}
 				br.close();
+				System.out.println("==> " + count + "개 로딩 완료!!!");
+				
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
