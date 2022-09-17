@@ -104,7 +104,7 @@ public class WordCRUD implements ICRUD{
 		String meaning = s.nextLine();
 		Word word = list.get(idlist.get(id-1));
 		word.setMeaning(meaning);
-		System.out.print("단어가 수정되었습니다. ");
+		System.out.print("단어 수정이 성공적으로 되었습니다!!! \n ");
 	}
 	
 	public void deleteItem() {
@@ -119,7 +119,7 @@ public class WordCRUD implements ICRUD{
 		String ans = s.next();
 		if(ans.equalsIgnoreCase("y")) {
 			list.remove((int)idlist.get(id-1));
-			System.out.print("단어가 삭제되었습니다. ");
+			System.out.print("선택한 단어 삭제 완료 !!! \n ");
 		} else
 			System.out.print("취소되었습니다. ");
 	}
@@ -157,7 +157,7 @@ public class WordCRUD implements ICRUD{
 				pr.write(one.toFileString() + "\n");
 			}
 			pr.close();
-			System.out.println("==> 데이터 저장 완료 !!!");
+			System.out.println("==> 모든 단어 파일 저장 완료 !!!");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
