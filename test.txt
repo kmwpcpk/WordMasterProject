@@ -1,0 +1,26 @@
+2|information|정보
+1|safety|안전
+1|society|사회, 모임
+2|company|회사, 함께 함, 동반자
+1|need|필요하다, 필요, 궁핍
+2|mind|마음, 꺼리다
+1|care|돌봄, 걱정, 주의, 돌보다
+2|face|얼굴, 직면하다
+3|matter|문제, 물질, 중요하다
+1|rest|휴식, 나머지, 쉬다
+3|experience|경험, 경험하다
+2|practice|연습, 실행, 연습하다
+2|sense|감각, 의식, 의미, 느끼다
+2|reason|이유, 이성, 추론하다
+1|mean|의미하다, 비열한
+1|guess|추측하다, 알아맞히다, 추측
+1|whole|전체의, 모든
+1|miss|놓치다, 그리워하다
+2|choose|선택하다
+2|spend|쓰다, 보내다
+3|happen|일어나다, 우연히 ~하다
+1|move|움직이다, 이사하다, 감동시키다
+2|decide|결정하다, 결심하다
+1|own|자기 자신의, 소유하다
+3|possible|가능한
+1| apple|사과
